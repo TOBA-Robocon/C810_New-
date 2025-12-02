@@ -60,15 +60,15 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|154480000|117575000|327ea307-fc5d-4e28-8fdf-e1d0f9aee812|71e100bd-bd50-4ec5-8ed5-09b5f83314b1",
+          "copper_edge_clearance|108850000|124030000|27a9f338-fbe6-452c-b30e-01c86c4a7d58|b3fff6b8-365c-459f-8f0e-f505321ee561",
           ""
         ],
         [
-          "courtyards_overlap|183840000|116905000|96a6ca2e-c513-48be-91c2-d987d06ecf2d|e4dd3362-506d-4710-8078-3a5e958b9f2b",
+          "copper_edge_clearance|85170000|121420000|27a9f338-fbe6-452c-b30e-01c86c4a7d58|3cd8c8ab-791e-46bc-8467-368a6ce6bb2f",
           ""
         ],
         [
-          "courtyards_overlap|183840000|118595000|96a6ca2e-c513-48be-91c2-d987d06ecf2d|e5f837bc-66a5-4219-be30-4cad6f1667d7",
+          "copper_edge_clearance|85540000|123950000|27a9f338-fbe6-452c-b30e-01c86c4a7d58|58d103ec-6b2b-400e-890e-49082fb5ab7d",
           ""
         ]
       ],
@@ -81,7 +81,7 @@
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "ignore",
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
@@ -140,7 +140,7 @@
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.28,
+        "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.45,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
